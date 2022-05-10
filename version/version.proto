@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package konnex.version;
+package template.version;
 
 service VersionService {
   rpc GetVersion (VersionRequest) returns (VersionResponse) {}
